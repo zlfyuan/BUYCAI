@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  自定义taberbar
+//
+//  Created by 汤文洪 on 16/6/6.
+//  Copyright © 2016年 Tang. All rights reserved.
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+Huframe.h"
+#import "LXGNetWorkQuery.h"
+#import "UIBarButtonItem+HuUIbaritm.h"
+#import "ShowMessage.h"
+
+#define NotificationCenter [NSNotificationCenter defaultCenter]
+#define MYCOLOR(r,g,b) [UIColor colorWithRed:r/225.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+//如果是在调试阶段
+#ifdef DEBUG
+
+#define HULog(...) NSLog(__VA_ARGS__)
+//发布时
+#else
+#define HULog(...)
+#endif
+
+#define HUlog  HULog(@"%s",__func__)
+
+#endif /* PrefixHeader_pch *////Users/admin/Desktop/DianCaiBao/DianCaiBao/tabbar/PrefixHeader.pch
