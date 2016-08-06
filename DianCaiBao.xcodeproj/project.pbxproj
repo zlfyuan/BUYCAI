@@ -68,6 +68,7 @@
 		7F8408181D55F30500DBA934 /* ConsumeRecoderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8408141D55F30500DBA934 /* ConsumeRecoderTableViewCell.m */; };
 		7F8408191D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8408151D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib */; };
 		7F84081A1D55F30500DBA934 /* ConsumeRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8408171D55F30500DBA934 /* ConsumeRecorderViewController.m */; };
+		7F84081D1D55F35400DBA934 /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F84081C1D55F35400DBA934 /* RechargeViewController.m */; };
 		7F8C613C1D51CEDF0061FC43 /* ZLFBottomBuyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C61381D51CEDF0061FC43 /* ZLFBottomBuyView.m */; };
 		7F8C613D1D51CEDF0061FC43 /* ZLFCategroyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C613A1D51CEDF0061FC43 /* ZLFCategroyCell.m */; };
 		7F8C61411D51CF0D0061FC43 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C61401D51CF0D0061FC43 /* ClassifyViewController.m */; };
@@ -191,6 +192,8 @@
 		7F8408151D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConsumeRecoderTableViewCell.xib; path = ../../../../../../../../Downloads/ConsumeRecoderTableViewCell.xib; sourceTree = "<group>"; };
 		7F8408161D55F30500DBA934 /* ConsumeRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsumeRecorderViewController.h; path = ../../../../../../../../Downloads/ConsumeRecorderViewController.h; sourceTree = "<group>"; };
 		7F8408171D55F30500DBA934 /* ConsumeRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsumeRecorderViewController.m; path = ../../../../../../../../Downloads/ConsumeRecorderViewController.m; sourceTree = "<group>"; };
+		7F84081B1D55F35400DBA934 /* RechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RechargeViewController.h; path = ../../../../../../../../Downloads/RechargeViewController.h; sourceTree = "<group>"; };
+		7F84081C1D55F35400DBA934 /* RechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RechargeViewController.m; path = ../../../../../../../../Downloads/RechargeViewController.m; sourceTree = "<group>"; };
 		7F8C61371D51CEDF0061FC43 /* ZLFBottomBuyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFBottomBuyView.h; sourceTree = "<group>"; };
 		7F8C61381D51CEDF0061FC43 /* ZLFBottomBuyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFBottomBuyView.m; sourceTree = "<group>"; };
 		7F8C61391D51CEDF0061FC43 /* ZLFCategroyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFCategroyCell.h; sourceTree = "<group>"; };
@@ -317,6 +320,8 @@
 				245DD0501D556FB900C9A6DE /* MyRemainedViewController.m */,
 				7F8408131D55F30500DBA934 /* ConsumeRecoderTableViewCell.h */,
 				7F8408141D55F30500DBA934 /* ConsumeRecoderTableViewCell.m */,
+				7F84081B1D55F35400DBA934 /* RechargeViewController.h */,
+				7F84081C1D55F35400DBA934 /* RechargeViewController.m */,
 				7F8408151D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib */,
 				7F8408161D55F30500DBA934 /* ConsumeRecorderViewController.h */,
 				7F8408171D55F30500DBA934 /* ConsumeRecorderViewController.m */,
@@ -740,6 +745,7 @@
 				7F8408181D55F30500DBA934 /* ConsumeRecoderTableViewCell.m in Sources */,
 				2495ABBF1D503B8B00E4E692 /* AppDelegate.m in Sources */,
 				2495ABDC1D503BBA00E4E692 /* HuTabBarViewController.m in Sources */,
+				7F84081D1D55F35400DBA934 /* RechargeViewController.m in Sources */,
 				245DD06E1D55715600C9A6DE /* ShoppingCarViewController.m in Sources */,
 				2455BD9E1D55ED9B002D7839 /* MyJFViewController.m in Sources */,
 				2495ABEF1D5046B400E4E692 /* LunbopageView.m in Sources */,
