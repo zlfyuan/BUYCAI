@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		2451EFA51D50C354006F1762 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2451EFA41D50C354006F1762 /* SearchViewController.m */; };
 		2451EFA71D50C900006F1762 /* ZPXXView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2451EFA61D50C900006F1762 /* ZPXXView.xib */; };
-		245DD03F1D556F3900C9A6DE /* ConsumeRecoderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0391D556F3900C9A6DE /* ConsumeRecoderTableViewCell.m */; };
-		245DD0401D556F3900C9A6DE /* ConsumeRecoderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 245DD03A1D556F3900C9A6DE /* ConsumeRecoderTableViewCell.xib */; };
-		245DD0411D556F3900C9A6DE /* ConsumeRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD03C1D556F3900C9A6DE /* ConsumeRecorderViewController.m */; };
-		245DD0421D556F3900C9A6DE /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD03E1D556F3900C9A6DE /* RechargeViewController.m */; };
 		245DD04B1D556F8200C9A6DE /* ManagerAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0441D556F8200C9A6DE /* ManagerAddressViewController.m */; };
 		245DD04C1D556F8200C9A6DE /* ModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0461D556F8200C9A6DE /* ModifyViewController.m */; };
 		245DD04D1D556F8200C9A6DE /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0481D556F8200C9A6DE /* MyAccountViewController.m */; };
@@ -31,6 +27,10 @@
 		245DD0791D5571B200C9A6DE /* NewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0741D5571B200C9A6DE /* NewsView.m */; };
 		245DD07A1D5571B200C9A6DE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0761D5571B200C9A6DE /* NewsViewController.m */; };
 		245DD07D1D5571D000C9A6DE /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD07C1D5571D000C9A6DE /* NewsDetailViewController.m */; };
+		245DD0851D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD07F1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m */; };
+		245DD0861D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 245DD0801D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib */; };
+		245DD0871D55765F00C9A6DE /* ConsumeRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0821D55765F00C9A6DE /* ConsumeRecorderViewController.m */; };
+		245DD0881D55765F00C9A6DE /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0841D55765F00C9A6DE /* RechargeViewController.m */; };
 		24660D721D5088BB009BD672 /* chooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24660D711D5088BB009BD672 /* chooseViewController.m */; };
 		24660D761D508F18009BD672 /* chooseCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24660D751D508F18009BD672 /* chooseCityCell.xib */; };
 		24660D791D508FE5009BD672 /* chooseCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24660D781D508FE5009BD672 /* chooseCityTableViewCell.m */; };
@@ -80,13 +80,6 @@
 		2451EFA31D50C354006F1762 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		2451EFA41D50C354006F1762 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		2451EFA61D50C900006F1762 /* ZPXXView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPXXView.xib; sourceTree = "<group>"; };
-		245DD0381D556F3900C9A6DE /* ConsumeRecoderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumeRecoderTableViewCell.h; sourceTree = "<group>"; };
-		245DD0391D556F3900C9A6DE /* ConsumeRecoderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsumeRecoderTableViewCell.m; sourceTree = "<group>"; };
-		245DD03A1D556F3900C9A6DE /* ConsumeRecoderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsumeRecoderTableViewCell.xib; sourceTree = "<group>"; };
-		245DD03B1D556F3900C9A6DE /* ConsumeRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumeRecorderViewController.h; sourceTree = "<group>"; };
-		245DD03C1D556F3900C9A6DE /* ConsumeRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsumeRecorderViewController.m; sourceTree = "<group>"; };
-		245DD03D1D556F3900C9A6DE /* RechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechargeViewController.h; sourceTree = "<group>"; };
-		245DD03E1D556F3900C9A6DE /* RechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechargeViewController.m; sourceTree = "<group>"; };
 		245DD0431D556F8200C9A6DE /* ManagerAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerAddressViewController.h; sourceTree = "<group>"; };
 		245DD0441D556F8200C9A6DE /* ManagerAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerAddressViewController.m; sourceTree = "<group>"; };
 		245DD0451D556F8200C9A6DE /* ModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyViewController.h; sourceTree = "<group>"; };
@@ -122,6 +115,13 @@
 		245DD0761D5571B200C9A6DE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		245DD07B1D5571D000C9A6DE /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
 		245DD07C1D5571D000C9A6DE /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		245DD07E1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsumeRecoderTableViewCell.h; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecoderTableViewCell.h"; sourceTree = "<group>"; };
+		245DD07F1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsumeRecoderTableViewCell.m; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecoderTableViewCell.m"; sourceTree = "<group>"; };
+		245DD0801D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConsumeRecoderTableViewCell.xib; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecoderTableViewCell.xib"; sourceTree = "<group>"; };
+		245DD0811D55765F00C9A6DE /* ConsumeRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsumeRecorderViewController.h; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecorderViewController.h"; sourceTree = "<group>"; };
+		245DD0821D55765F00C9A6DE /* ConsumeRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsumeRecorderViewController.m; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecorderViewController.m"; sourceTree = "<group>"; };
+		245DD0831D55765F00C9A6DE /* RechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RechargeViewController.h; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/RechargeViewController.h"; sourceTree = "<group>"; };
+		245DD0841D55765F00C9A6DE /* RechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RechargeViewController.m; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/RechargeViewController.m"; sourceTree = "<group>"; };
 		24660D701D5088BB009BD672 /* chooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chooseViewController.h; path = ../chooseViewController.h; sourceTree = "<group>"; };
 		24660D711D5088BB009BD672 /* chooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = chooseViewController.m; path = ../chooseViewController.m; sourceTree = "<group>"; };
 		24660D751D508F18009BD672 /* chooseCityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = chooseCityCell.xib; path = ../chooseCityCell.xib; sourceTree = "<group>"; };
@@ -306,13 +306,13 @@
 			children = (
 				245DD04F1D556FB900C9A6DE /* MyRemainedViewController.h */,
 				245DD0501D556FB900C9A6DE /* MyRemainedViewController.m */,
-				245DD03D1D556F3900C9A6DE /* RechargeViewController.h */,
-				245DD03E1D556F3900C9A6DE /* RechargeViewController.m */,
-				245DD0381D556F3900C9A6DE /* ConsumeRecoderTableViewCell.h */,
-				245DD0391D556F3900C9A6DE /* ConsumeRecoderTableViewCell.m */,
-				245DD03A1D556F3900C9A6DE /* ConsumeRecoderTableViewCell.xib */,
-				245DD03B1D556F3900C9A6DE /* ConsumeRecorderViewController.h */,
-				245DD03C1D556F3900C9A6DE /* ConsumeRecorderViewController.m */,
+				245DD07E1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.h */,
+				245DD07F1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m */,
+				245DD0801D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib */,
+				245DD0811D55765F00C9A6DE /* ConsumeRecorderViewController.h */,
+				245DD0821D55765F00C9A6DE /* ConsumeRecorderViewController.m */,
+				245DD0831D55765F00C9A6DE /* RechargeViewController.h */,
+				245DD0841D55765F00C9A6DE /* RechargeViewController.m */,
 			);
 			name = "我的余额";
 			path = MyRemained;
@@ -640,7 +640,7 @@
 				2495ABCA1D503B8B00E4E692 /* Assets.xcassets in Resources */,
 				2495ABF01D5046B400E4E692 /* LunbopageView.xib in Resources */,
 				2495ABC51D503B8B00E4E692 /* Main.storyboard in Resources */,
-				245DD0401D556F3900C9A6DE /* ConsumeRecoderTableViewCell.xib in Resources */,
+				245DD0861D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,10 +700,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2495ABDD1D503BBA00E4E692 /* UIBarButtonItem+HuUIbaritm.m in Sources */,
-				245DD03F1D556F3900C9A6DE /* ConsumeRecoderTableViewCell.m in Sources */,
 				7F18C3911D53042100DA458D /* ZLFSegmentControll.m in Sources */,
 				7F18C3A41D533F5D00DA458D /* ZLFDetaiCateMode.m in Sources */,
 				245DD04D1D556F8200C9A6DE /* MyAccountViewController.m in Sources */,
+				245DD0881D55765F00C9A6DE /* RechargeViewController.m in Sources */,
 				7F18C38A1D52D60B00DA458D /* Foundation+Log.m in Sources */,
 				2494F2981D53768A00B04792 /* noneShoppingCar.m in Sources */,
 				245DD0641D55707100C9A6DE /* JFPrizeViewController.m in Sources */,
@@ -737,17 +737,17 @@
 				7F18C3971D53126100DA458D /* ZLFCategroyMode.m in Sources */,
 				245DD0651D55707100C9A6DE /* JFRecorderViewController.m in Sources */,
 				245DD07D1D5571D000C9A6DE /* NewsDetailViewController.m in Sources */,
-				245DD0411D556F3900C9A6DE /* ConsumeRecorderViewController.m in Sources */,
 				24660D791D508FE5009BD672 /* chooseCityTableViewCell.m in Sources */,
 				245DD0671D55707100C9A6DE /* NoneData.m in Sources */,
 				2495ABBC1D503B8B00E4E692 /* main.m in Sources */,
 				2494F29E1D53780200B04792 /* RegisterViewController.m in Sources */,
+				245DD0871D55765F00C9A6DE /* ConsumeRecorderViewController.m in Sources */,
 				7F8C613B1D51CEDF0061FC43 /* segmentedcontrol.m in Sources */,
+				245DD0851D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m in Sources */,
 				7F8C614B1D51FFF80061FC43 /* ZLFDetaiViewCell.m in Sources */,
 				2495ABEA1D503BE100E4E692 /* FirstPageViewController.m in Sources */,
 				2494F28A1D5375BB00B04792 /* JudgePhoneNumer.m in Sources */,
 				7FE9313D1D5474CF008D6683 /* ZLFUserMode.m in Sources */,
-				245DD0421D556F3900C9A6DE /* RechargeViewController.m in Sources */,
 				7F8C61411D51CF0D0061FC43 /* ClassifyViewController.m in Sources */,
 				7F8C613D1D51CEDF0061FC43 /* ZLFCategroyCell.m in Sources */,
 				245DD0571D556FB900C9A6DE /* MyRemainedViewController.m in Sources */,
