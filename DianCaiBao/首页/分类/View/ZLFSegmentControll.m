@@ -52,14 +52,7 @@ typedef void(^clickBlock)(NSInteger index);
         [self addSubview:but];
     }
     
-    //初始化指示器
-    if (_titles.count > 5) {
-        _pointerView = [[UIView alloc] initWithFrame:CGRectMake(0, self.bounds.size.height - 2, self.bounds.size.width / 5, 2)];
-    }else{
-        _pointerView = [[UIView alloc] initWithFrame:CGRectMake(0, self.bounds.size.height - 2, self.bounds.size.width / _titles.count, 2)];
-    }
-    _pointerView.backgroundColor = [UIColor redColor];
-    [self addSubview:_pointerView];
+ 
 }
 
 -(void)butClick:(UIButton*)sender
@@ -71,22 +64,6 @@ typedef void(^clickBlock)(NSInteger index);
         else
             button.selected = NO;
     }
-    
-    [UIView animateWithDuration:self.duration animations:^{
-        _pointerView.center = (CGPoint){sender.center.x, _pointerView.center.y};
-    } completion:^(BOOL finished) {
-    }];
-    
-    [UIView animateWithDuration:self.duration animations:^{
-        if (_buts.count > 5 && sender.tag - 100 > 1 && _buts.count - (sender.tag - 100) > 2) {
-            self.contentOffset = (CGPoint){self.bounds.size.width / 5 * (sender.tag - 100 - 2), self.contentOffset.y};
-        }else if (sender.tag - 100 < 2){
-            self.contentOffset = (CGPoint){0, self.contentOffset.y};
-        }else if(sender.tag - 100 == _buts.count - 2){
-            self.contentOffset = (CGPoint){self.bounds.size.width / 5 * (sender.tag - 100 - 3), self.contentOffset.y};
-        }
-    } completion:^(BOOL finished) {
-    }];
     
     self.clickBlock(sender.tag - 100, sender);
     
