@@ -20,6 +20,12 @@
 
 @implementation NewsViewController
 
+//-(void)request{
+//     NSMutableDictionary *parms = [NSMutableDictionary new];
+//    parms[];
+//    [[LXGNetWorkQuery shareManager] AFrequestData:@"20001" HttpMethod:@"" params:<#(NSMutableDictionary *)#> completionHandle:<#^(id result)completionBlock#> errorHandle:<#^(NSError *result)errorBlock#>];
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -68,6 +74,11 @@
     if (!MyCell) {
         MyCell = [[[NSBundle mainBundle]loadNibNamed:@"NewsTableViewCell" owner:nil options:nil]lastObject];
         MyCell.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+//        MyCell.newsText.numberOfLines = 0;
+//        MyCell.newsText.textAlignment = NSTextAlignmentNatural;
+//        [MyCell.newsText sizeToFit];
+        
     }
     MyCell.HeadImgView.image = [UIImage imageNamed:@"Address"];
     MyCell.NewsTitle.text = @"红壳鸡蛋PK白壳鸡蛋,谁能胜出?";

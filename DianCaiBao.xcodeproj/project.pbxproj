@@ -8,29 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2451EFA51D50C354006F1762 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2451EFA41D50C354006F1762 /* SearchViewController.m */; };
-		2451EFA71D50C900006F1762 /* ZPXXView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2451EFA61D50C900006F1762 /* ZPXXView.xib */; };
+		2455BD971D55ECD7002D7839 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BD8F1D55ECD7002D7839 /* NewsDetailViewController.m */; };
+		2455BD981D55ECD7002D7839 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BD911D55ECD7002D7839 /* NewsTableViewCell.m */; };
+		2455BD991D55ECD7002D7839 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2455BD921D55ECD7002D7839 /* NewsTableViewCell.xib */; };
+		2455BD9A1D55ECD7002D7839 /* NewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BD941D55ECD7002D7839 /* NewsView.m */; };
+		2455BD9B1D55ECD7002D7839 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BD961D55ECD7002D7839 /* NewsViewController.m */; };
+		2455BD9E1D55ED9B002D7839 /* MyJFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BD9D1D55ED9B002D7839 /* MyJFViewController.m */; };
+		2455BDA81D55EDEA002D7839 /* JFPrizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BDA01D55EDEA002D7839 /* JFPrizeViewController.m */; };
+		2455BDA91D55EDEA002D7839 /* JFRecorderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BDA21D55EDEA002D7839 /* JFRecorderTableViewCell.m */; };
+		2455BDAA1D55EDEA002D7839 /* JFRecorderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2455BDA31D55EDEA002D7839 /* JFRecorderTableViewCell.xib */; };
+		2455BDAB1D55EDEA002D7839 /* JFRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BDA51D55EDEA002D7839 /* JFRecorderViewController.m */; };
+		2455BDAC1D55EDEA002D7839 /* JFyhqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BDA71D55EDEA002D7839 /* JFyhqViewController.m */; };
+		2455BDAF1D55EE0A002D7839 /* NoneData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2455BDAE1D55EE0A002D7839 /* NoneData.m */; };
+		2455BDB11D55EE79002D7839 /* ZPXXView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2455BDB01D55EE79002D7839 /* ZPXXView.xib */; };
 		245DD04B1D556F8200C9A6DE /* ManagerAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0441D556F8200C9A6DE /* ManagerAddressViewController.m */; };
 		245DD04C1D556F8200C9A6DE /* ModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0461D556F8200C9A6DE /* ModifyViewController.m */; };
 		245DD04D1D556F8200C9A6DE /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0481D556F8200C9A6DE /* MyAccountViewController.m */; };
-		245DD04E1D556F8200C9A6DE /* MyJFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD04A1D556F8200C9A6DE /* MyJFViewController.m */; };
 		245DD0571D556FB900C9A6DE /* MyRemainedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0501D556FB900C9A6DE /* MyRemainedViewController.m */; };
 		245DD0581D556FB900C9A6DE /* MyYHQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0521D556FB900C9A6DE /* MyYHQViewController.m */; };
 		245DD0591D556FB900C9A6DE /* PersonInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0541D556FB900C9A6DE /* PersonInformationViewController.m */; };
 		245DD05A1D556FB900C9A6DE /* yhqDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0561D556FB900C9A6DE /* yhqDetailViewController.m */; };
-		245DD0641D55707100C9A6DE /* JFPrizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD05D1D55707100C9A6DE /* JFPrizeViewController.m */; };
-		245DD0651D55707100C9A6DE /* JFRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD05F1D55707100C9A6DE /* JFRecorderViewController.m */; };
-		245DD0661D55707100C9A6DE /* JFyhqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0611D55707100C9A6DE /* JFyhqViewController.m */; };
-		245DD0671D55707100C9A6DE /* NoneData.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0631D55707100C9A6DE /* NoneData.m */; };
 		245DD06E1D55715600C9A6DE /* ShoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD06D1D55715600C9A6DE /* ShoppingCarViewController.m */; };
-		245DD0771D5571B200C9A6DE /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0711D5571B200C9A6DE /* NewsTableViewCell.m */; };
-		245DD0781D5571B200C9A6DE /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 245DD0721D5571B200C9A6DE /* NewsTableViewCell.xib */; };
-		245DD0791D5571B200C9A6DE /* NewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0741D5571B200C9A6DE /* NewsView.m */; };
-		245DD07A1D5571B200C9A6DE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0761D5571B200C9A6DE /* NewsViewController.m */; };
-		245DD07D1D5571D000C9A6DE /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD07C1D5571D000C9A6DE /* NewsDetailViewController.m */; };
-		245DD0851D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD07F1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m */; };
-		245DD0861D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 245DD0801D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib */; };
-		245DD0871D55765F00C9A6DE /* ConsumeRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0821D55765F00C9A6DE /* ConsumeRecorderViewController.m */; };
-		245DD0881D55765F00C9A6DE /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DD0841D55765F00C9A6DE /* RechargeViewController.m */; };
 		24660D721D5088BB009BD672 /* chooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24660D711D5088BB009BD672 /* chooseViewController.m */; };
 		24660D761D508F18009BD672 /* chooseCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24660D751D508F18009BD672 /* chooseCityCell.xib */; };
 		24660D791D508FE5009BD672 /* chooseCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24660D781D508FE5009BD672 /* chooseCityTableViewCell.m */; };
@@ -67,6 +65,9 @@
 		7F18C3A41D533F5D00DA458D /* ZLFDetaiCateMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F18C3A31D533F5D00DA458D /* ZLFDetaiCateMode.m */; };
 		7F32EB511D52D1E20074E2FA /* ZLFHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F32EB501D52D1E20074E2FA /* ZLFHttpRequest.m */; };
 		7F8408121D55D9D700DBA934 /* noneShoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8408111D55D9D700DBA934 /* noneShoppingCar.m */; };
+		7F8408181D55F30500DBA934 /* ConsumeRecoderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8408141D55F30500DBA934 /* ConsumeRecoderTableViewCell.m */; };
+		7F8408191D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8408151D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib */; };
+		7F84081A1D55F30500DBA934 /* ConsumeRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8408171D55F30500DBA934 /* ConsumeRecorderViewController.m */; };
 		7F8C613C1D51CEDF0061FC43 /* ZLFBottomBuyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C61381D51CEDF0061FC43 /* ZLFBottomBuyView.m */; };
 		7F8C613D1D51CEDF0061FC43 /* ZLFCategroyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C613A1D51CEDF0061FC43 /* ZLFCategroyCell.m */; };
 		7F8C61411D51CF0D0061FC43 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C61401D51CF0D0061FC43 /* ClassifyViewController.m */; };
@@ -81,15 +82,35 @@
 /* Begin PBXFileReference section */
 		2451EFA31D50C354006F1762 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		2451EFA41D50C354006F1762 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		2451EFA61D50C900006F1762 /* ZPXXView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPXXView.xib; sourceTree = "<group>"; };
+		2455BD8E1D55ECD7002D7839 /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		2455BD8F1D55ECD7002D7839 /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		2455BD901D55ECD7002D7839 /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		2455BD911D55ECD7002D7839 /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		2455BD921D55ECD7002D7839 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		2455BD931D55ECD7002D7839 /* NewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsView.h; sourceTree = "<group>"; };
+		2455BD941D55ECD7002D7839 /* NewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsView.m; sourceTree = "<group>"; };
+		2455BD951D55ECD7002D7839 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		2455BD961D55ECD7002D7839 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		2455BD9C1D55ED9B002D7839 /* MyJFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJFViewController.h; sourceTree = "<group>"; };
+		2455BD9D1D55ED9B002D7839 /* MyJFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJFViewController.m; sourceTree = "<group>"; };
+		2455BD9F1D55EDEA002D7839 /* JFPrizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPrizeViewController.h; sourceTree = "<group>"; };
+		2455BDA01D55EDEA002D7839 /* JFPrizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPrizeViewController.m; sourceTree = "<group>"; };
+		2455BDA11D55EDEA002D7839 /* JFRecorderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRecorderTableViewCell.h; sourceTree = "<group>"; };
+		2455BDA21D55EDEA002D7839 /* JFRecorderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRecorderTableViewCell.m; sourceTree = "<group>"; };
+		2455BDA31D55EDEA002D7839 /* JFRecorderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFRecorderTableViewCell.xib; sourceTree = "<group>"; };
+		2455BDA41D55EDEA002D7839 /* JFRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRecorderViewController.h; sourceTree = "<group>"; };
+		2455BDA51D55EDEA002D7839 /* JFRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRecorderViewController.m; sourceTree = "<group>"; };
+		2455BDA61D55EDEA002D7839 /* JFyhqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFyhqViewController.h; sourceTree = "<group>"; };
+		2455BDA71D55EDEA002D7839 /* JFyhqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFyhqViewController.m; sourceTree = "<group>"; };
+		2455BDAD1D55EE0A002D7839 /* NoneData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoneData.h; sourceTree = "<group>"; };
+		2455BDAE1D55EE0A002D7839 /* NoneData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoneData.m; sourceTree = "<group>"; };
+		2455BDB01D55EE79002D7839 /* ZPXXView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPXXView.xib; sourceTree = "<group>"; };
 		245DD0431D556F8200C9A6DE /* ManagerAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerAddressViewController.h; sourceTree = "<group>"; };
 		245DD0441D556F8200C9A6DE /* ManagerAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerAddressViewController.m; sourceTree = "<group>"; };
 		245DD0451D556F8200C9A6DE /* ModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyViewController.h; sourceTree = "<group>"; };
 		245DD0461D556F8200C9A6DE /* ModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyViewController.m; sourceTree = "<group>"; };
 		245DD0471D556F8200C9A6DE /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
 		245DD0481D556F8200C9A6DE /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
-		245DD0491D556F8200C9A6DE /* MyJFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJFViewController.h; sourceTree = "<group>"; };
-		245DD04A1D556F8200C9A6DE /* MyJFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJFViewController.m; sourceTree = "<group>"; };
 		245DD04F1D556FB900C9A6DE /* MyRemainedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyRemainedViewController.h; path = "DianCaiBao/首页/分类/购物车/我的账户/MyRemainedViewController.h"; sourceTree = SOURCE_ROOT; };
 		245DD0501D556FB900C9A6DE /* MyRemainedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyRemainedViewController.m; path = "DianCaiBao/首页/分类/购物车/我的账户/MyRemainedViewController.m"; sourceTree = SOURCE_ROOT; };
 		245DD0511D556FB900C9A6DE /* MyYHQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyYHQViewController.h; sourceTree = "<group>"; };
@@ -98,32 +119,8 @@
 		245DD0541D556FB900C9A6DE /* PersonInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInformationViewController.m; sourceTree = "<group>"; };
 		245DD0551D556FB900C9A6DE /* yhqDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yhqDetailViewController.h; sourceTree = "<group>"; };
 		245DD0561D556FB900C9A6DE /* yhqDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yhqDetailViewController.m; sourceTree = "<group>"; };
-		245DD05C1D55707100C9A6DE /* JFPrizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPrizeViewController.h; sourceTree = "<group>"; };
-		245DD05D1D55707100C9A6DE /* JFPrizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPrizeViewController.m; sourceTree = "<group>"; };
-		245DD05E1D55707100C9A6DE /* JFRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRecorderViewController.h; sourceTree = "<group>"; };
-		245DD05F1D55707100C9A6DE /* JFRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRecorderViewController.m; sourceTree = "<group>"; };
-		245DD0601D55707100C9A6DE /* JFyhqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFyhqViewController.h; sourceTree = "<group>"; };
-		245DD0611D55707100C9A6DE /* JFyhqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFyhqViewController.m; sourceTree = "<group>"; };
-		245DD0621D55707100C9A6DE /* NoneData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoneData.h; sourceTree = "<group>"; };
-		245DD0631D55707100C9A6DE /* NoneData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoneData.m; sourceTree = "<group>"; };
 		245DD06C1D55715600C9A6DE /* ShoppingCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarViewController.h; sourceTree = "<group>"; };
 		245DD06D1D55715600C9A6DE /* ShoppingCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarViewController.m; sourceTree = "<group>"; };
-		245DD0701D5571B200C9A6DE /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
-		245DD0711D5571B200C9A6DE /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
-		245DD0721D5571B200C9A6DE /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
-		245DD0731D5571B200C9A6DE /* NewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsView.h; sourceTree = "<group>"; };
-		245DD0741D5571B200C9A6DE /* NewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsView.m; sourceTree = "<group>"; };
-		245DD0751D5571B200C9A6DE /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
-		245DD0761D5571B200C9A6DE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
-		245DD07B1D5571D000C9A6DE /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
-		245DD07C1D5571D000C9A6DE /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
-		245DD07E1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsumeRecoderTableViewCell.h; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecoderTableViewCell.h"; sourceTree = "<group>"; };
-		245DD07F1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsumeRecoderTableViewCell.m; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecoderTableViewCell.m"; sourceTree = "<group>"; };
-		245DD0801D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConsumeRecoderTableViewCell.xib; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecoderTableViewCell.xib"; sourceTree = "<group>"; };
-		245DD0811D55765F00C9A6DE /* ConsumeRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsumeRecorderViewController.h; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecorderViewController.h"; sourceTree = "<group>"; };
-		245DD0821D55765F00C9A6DE /* ConsumeRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsumeRecorderViewController.m; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/ConsumeRecorderViewController.m"; sourceTree = "<group>"; };
-		245DD0831D55765F00C9A6DE /* RechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RechargeViewController.h; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/RechargeViewController.h"; sourceTree = "<group>"; };
-		245DD0841D55765F00C9A6DE /* RechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RechargeViewController.m; path = "../../../../../../../../Desktop/BUYCAI/DianCaiBao/首页/分类/购物车/我的账户/MyRemained/RechargeViewController.m"; sourceTree = "<group>"; };
 		24660D701D5088BB009BD672 /* chooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chooseViewController.h; path = ../chooseViewController.h; sourceTree = "<group>"; };
 		24660D711D5088BB009BD672 /* chooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = chooseViewController.m; path = ../chooseViewController.m; sourceTree = "<group>"; };
 		24660D751D508F18009BD672 /* chooseCityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = chooseCityCell.xib; path = ../chooseCityCell.xib; sourceTree = "<group>"; };
@@ -189,6 +186,11 @@
 		7F32EB501D52D1E20074E2FA /* ZLFHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFHttpRequest.m; sourceTree = "<group>"; };
 		7F8408101D55D9D700DBA934 /* noneShoppingCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noneShoppingCar.h; sourceTree = "<group>"; };
 		7F8408111D55D9D700DBA934 /* noneShoppingCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noneShoppingCar.m; sourceTree = "<group>"; };
+		7F8408131D55F30500DBA934 /* ConsumeRecoderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsumeRecoderTableViewCell.h; path = ../../../../../../../../Downloads/ConsumeRecoderTableViewCell.h; sourceTree = "<group>"; };
+		7F8408141D55F30500DBA934 /* ConsumeRecoderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsumeRecoderTableViewCell.m; path = ../../../../../../../../Downloads/ConsumeRecoderTableViewCell.m; sourceTree = "<group>"; };
+		7F8408151D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConsumeRecoderTableViewCell.xib; path = ../../../../../../../../Downloads/ConsumeRecoderTableViewCell.xib; sourceTree = "<group>"; };
+		7F8408161D55F30500DBA934 /* ConsumeRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsumeRecorderViewController.h; path = ../../../../../../../../Downloads/ConsumeRecorderViewController.h; sourceTree = "<group>"; };
+		7F8408171D55F30500DBA934 /* ConsumeRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsumeRecorderViewController.m; path = ../../../../../../../../Downloads/ConsumeRecorderViewController.m; sourceTree = "<group>"; };
 		7F8C61371D51CEDF0061FC43 /* ZLFBottomBuyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFBottomBuyView.h; sourceTree = "<group>"; };
 		7F8C61381D51CEDF0061FC43 /* ZLFBottomBuyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFBottomBuyView.m; sourceTree = "<group>"; };
 		7F8C61391D51CEDF0061FC43 /* ZLFCategroyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFCategroyCell.h; sourceTree = "<group>"; };
@@ -236,7 +238,7 @@
 				24660D751D508F18009BD672 /* chooseCityCell.xib */,
 				2451EFA31D50C354006F1762 /* SearchViewController.h */,
 				2451EFA41D50C354006F1762 /* SearchViewController.m */,
-				2451EFA61D50C900006F1762 /* ZPXXView.xib */,
+				2455BDB01D55EE79002D7839 /* ZPXXView.xib */,
 				245DD06F1D55719200C9A6DE /* 消息 */,
 			);
 			path = "首页";
@@ -313,13 +315,11 @@
 			children = (
 				245DD04F1D556FB900C9A6DE /* MyRemainedViewController.h */,
 				245DD0501D556FB900C9A6DE /* MyRemainedViewController.m */,
-				245DD07E1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.h */,
-				245DD07F1D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m */,
-				245DD0801D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib */,
-				245DD0811D55765F00C9A6DE /* ConsumeRecorderViewController.h */,
-				245DD0821D55765F00C9A6DE /* ConsumeRecorderViewController.m */,
-				245DD0831D55765F00C9A6DE /* RechargeViewController.h */,
-				245DD0841D55765F00C9A6DE /* RechargeViewController.m */,
+				7F8408131D55F30500DBA934 /* ConsumeRecoderTableViewCell.h */,
+				7F8408141D55F30500DBA934 /* ConsumeRecoderTableViewCell.m */,
+				7F8408151D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib */,
+				7F8408161D55F30500DBA934 /* ConsumeRecorderViewController.h */,
+				7F8408171D55F30500DBA934 /* ConsumeRecorderViewController.m */,
 			);
 			name = "我的余额";
 			path = MyRemained;
@@ -328,16 +328,19 @@
 		245DD05B1D55704D00C9A6DE /* 我的积分 */ = {
 			isa = PBXGroup;
 			children = (
-				245DD0491D556F8200C9A6DE /* MyJFViewController.h */,
-				245DD04A1D556F8200C9A6DE /* MyJFViewController.m */,
-				245DD05C1D55707100C9A6DE /* JFPrizeViewController.h */,
-				245DD05D1D55707100C9A6DE /* JFPrizeViewController.m */,
-				245DD05E1D55707100C9A6DE /* JFRecorderViewController.h */,
-				245DD05F1D55707100C9A6DE /* JFRecorderViewController.m */,
-				245DD0601D55707100C9A6DE /* JFyhqViewController.h */,
-				245DD0611D55707100C9A6DE /* JFyhqViewController.m */,
-				245DD0621D55707100C9A6DE /* NoneData.h */,
-				245DD0631D55707100C9A6DE /* NoneData.m */,
+				2455BD9C1D55ED9B002D7839 /* MyJFViewController.h */,
+				2455BD9D1D55ED9B002D7839 /* MyJFViewController.m */,
+				2455BD9F1D55EDEA002D7839 /* JFPrizeViewController.h */,
+				2455BDA01D55EDEA002D7839 /* JFPrizeViewController.m */,
+				2455BDA11D55EDEA002D7839 /* JFRecorderTableViewCell.h */,
+				2455BDA21D55EDEA002D7839 /* JFRecorderTableViewCell.m */,
+				2455BDA31D55EDEA002D7839 /* JFRecorderTableViewCell.xib */,
+				2455BDA41D55EDEA002D7839 /* JFRecorderViewController.h */,
+				2455BDA51D55EDEA002D7839 /* JFRecorderViewController.m */,
+				2455BDA61D55EDEA002D7839 /* JFyhqViewController.h */,
+				2455BDA71D55EDEA002D7839 /* JFyhqViewController.m */,
+				2455BDAD1D55EE0A002D7839 /* NoneData.h */,
+				2455BDAE1D55EE0A002D7839 /* NoneData.m */,
 			);
 			name = "我的积分";
 			sourceTree = "<group>";
@@ -383,15 +386,15 @@
 		245DD06F1D55719200C9A6DE /* 消息 */ = {
 			isa = PBXGroup;
 			children = (
-				245DD0751D5571B200C9A6DE /* NewsViewController.h */,
-				245DD0761D5571B200C9A6DE /* NewsViewController.m */,
-				245DD07B1D5571D000C9A6DE /* NewsDetailViewController.h */,
-				245DD07C1D5571D000C9A6DE /* NewsDetailViewController.m */,
-				245DD0701D5571B200C9A6DE /* NewsTableViewCell.h */,
-				245DD0711D5571B200C9A6DE /* NewsTableViewCell.m */,
-				245DD0721D5571B200C9A6DE /* NewsTableViewCell.xib */,
-				245DD0731D5571B200C9A6DE /* NewsView.h */,
-				245DD0741D5571B200C9A6DE /* NewsView.m */,
+				2455BD8E1D55ECD7002D7839 /* NewsDetailViewController.h */,
+				2455BD8F1D55ECD7002D7839 /* NewsDetailViewController.m */,
+				2455BD901D55ECD7002D7839 /* NewsTableViewCell.h */,
+				2455BD911D55ECD7002D7839 /* NewsTableViewCell.m */,
+				2455BD921D55ECD7002D7839 /* NewsTableViewCell.xib */,
+				2455BD931D55ECD7002D7839 /* NewsView.h */,
+				2455BD941D55ECD7002D7839 /* NewsView.m */,
+				2455BD951D55ECD7002D7839 /* NewsViewController.h */,
+				2455BD961D55ECD7002D7839 /* NewsViewController.m */,
 			);
 			name = "消息";
 			sourceTree = "<group>";
@@ -653,12 +656,13 @@
 				7F18C38E1D52F43700DA458D /* list.plist in Resources */,
 				24660D761D508F18009BD672 /* chooseCityCell.xib in Resources */,
 				2495ABCD1D503B8B00E4E692 /* LaunchScreen.storyboard in Resources */,
-				2451EFA71D50C900006F1762 /* ZPXXView.xib in Resources */,
-				245DD0781D5571B200C9A6DE /* NewsTableViewCell.xib in Resources */,
+				2455BD991D55ECD7002D7839 /* NewsTableViewCell.xib in Resources */,
+				2455BDAA1D55EDEA002D7839 /* JFRecorderTableViewCell.xib in Resources */,
+				7F8408191D55F30500DBA934 /* ConsumeRecoderTableViewCell.xib in Resources */,
 				2495ABCA1D503B8B00E4E692 /* Assets.xcassets in Resources */,
+				2455BDB11D55EE79002D7839 /* ZPXXView.xib in Resources */,
 				2495ABF01D5046B400E4E692 /* LunbopageView.xib in Resources */,
 				2495ABC51D503B8B00E4E692 /* Main.storyboard in Resources */,
-				245DD0861D55765F00C9A6DE /* ConsumeRecoderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,58 +724,58 @@
 				2495ABDD1D503BBA00E4E692 /* UIBarButtonItem+HuUIbaritm.m in Sources */,
 				7F8408121D55D9D700DBA934 /* noneShoppingCar.m in Sources */,
 				7F18C3911D53042100DA458D /* ZLFSegmentControll.m in Sources */,
+				2455BDA91D55EDEA002D7839 /* JFRecorderTableViewCell.m in Sources */,
 				7F18C3A41D533F5D00DA458D /* ZLFDetaiCateMode.m in Sources */,
 				245DD04D1D556F8200C9A6DE /* MyAccountViewController.m in Sources */,
-				245DD0881D55765F00C9A6DE /* RechargeViewController.m in Sources */,
 				7F18C38A1D52D60B00DA458D /* Foundation+Log.m in Sources */,
+				7F84081A1D55F30500DBA934 /* ConsumeRecorderViewController.m in Sources */,
 				7FBCB8F31D5593DE000F862C /* ZLFVegetableView.m in Sources */,
-				245DD0641D55707100C9A6DE /* JFPrizeViewController.m in Sources */,
 				2494F2831D53757F00B04792 /* ShowMessage.m in Sources */,
 				245DD0581D556FB900C9A6DE /* MyYHQViewController.m in Sources */,
-				245DD0661D55707100C9A6DE /* JFyhqViewController.m in Sources */,
 				24660D721D5088BB009BD672 /* chooseViewController.m in Sources */,
 				2495ABDE1D503BBA00E4E692 /* UIView+Huframe.m in Sources */,
 				2494F27F1D53751800B04792 /* TWHTextFiled.m in Sources */,
-				245DD0771D5571B200C9A6DE /* NewsTableViewCell.m in Sources */,
 				7F32EB511D52D1E20074E2FA /* ZLFHttpRequest.m in Sources */,
 				2451EFA51D50C354006F1762 /* SearchViewController.m in Sources */,
+				7F8408181D55F30500DBA934 /* ConsumeRecoderTableViewCell.m in Sources */,
 				2495ABBF1D503B8B00E4E692 /* AppDelegate.m in Sources */,
-				245DD0791D5571B200C9A6DE /* NewsView.m in Sources */,
 				2495ABDC1D503BBA00E4E692 /* HuTabBarViewController.m in Sources */,
 				245DD06E1D55715600C9A6DE /* ShoppingCarViewController.m in Sources */,
+				2455BD9E1D55ED9B002D7839 /* MyJFViewController.m in Sources */,
 				2495ABEF1D5046B400E4E692 /* LunbopageView.m in Sources */,
 				7F18C3881D52D39500DA458D /* GYHttpRequest.m in Sources */,
 				2495ABC81D503B8B00E4E692 /* DianCaiBao.xcdatamodeld in Sources */,
+				2455BD9B1D55ECD7002D7839 /* NewsViewController.m in Sources */,
 				2494F2A11D53782500B04792 /* FindPwViewController.m in Sources */,
 				7F18C3A11D533E4100DA458D /* ZLFDetaiVegeTableMode.m in Sources */,
 				245DD0591D556FB900C9A6DE /* PersonInformationViewController.m in Sources */,
-				245DD07A1D5571B200C9A6DE /* NewsViewController.m in Sources */,
 				7F18C39E1D5326B400DA458D /* ZLFCityMode.m in Sources */,
 				245DD04B1D556F8200C9A6DE /* ManagerAddressViewController.m in Sources */,
-				245DD04E1D556F8200C9A6DE /* MyJFViewController.m in Sources */,
 				7FBCB8E91D55824E000F862C /* segmentedcontrol.m in Sources */,
 				245DD05A1D556FB900C9A6DE /* yhqDetailViewController.m in Sources */,
 				2494F27D1D53751800B04792 /* TWHButton.m in Sources */,
 				7F18C3941D530E7D00DA458D /* LXGNetWorkQuery.m in Sources */,
+				2455BD9A1D55ECD7002D7839 /* NewsView.m in Sources */,
 				2494F27E1D53751800B04792 /* TWHLabel.m in Sources */,
 				7F18C3971D53126100DA458D /* ZLFCategroyMode.m in Sources */,
-				245DD0651D55707100C9A6DE /* JFRecorderViewController.m in Sources */,
-				245DD07D1D5571D000C9A6DE /* NewsDetailViewController.m in Sources */,
+				2455BD971D55ECD7002D7839 /* NewsDetailViewController.m in Sources */,
+				2455BDAC1D55EDEA002D7839 /* JFyhqViewController.m in Sources */,
 				24660D791D508FE5009BD672 /* chooseCityTableViewCell.m in Sources */,
-				245DD0671D55707100C9A6DE /* NoneData.m in Sources */,
 				2495ABBC1D503B8B00E4E692 /* main.m in Sources */,
 				7FBCB8F01D5583DF000F862C /* ZLFOrderViewController.m in Sources */,
 				2494F29E1D53780200B04792 /* RegisterViewController.m in Sources */,
-				245DD0871D55765F00C9A6DE /* ConsumeRecorderViewController.m in Sources */,
-				245DD0851D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m in Sources */,
 				7F8C614B1D51FFF80061FC43 /* ZLFDetaiViewCell.m in Sources */,
 				2495ABEA1D503BE100E4E692 /* FirstPageViewController.m in Sources */,
+				2455BDAB1D55EDEA002D7839 /* JFRecorderViewController.m in Sources */,
 				2494F28A1D5375BB00B04792 /* JudgePhoneNumer.m in Sources */,
+				2455BD981D55ECD7002D7839 /* NewsTableViewCell.m in Sources */,
 				7FE9313D1D5474CF008D6683 /* ZLFUserMode.m in Sources */,
 				7F8C61411D51CF0D0061FC43 /* ClassifyViewController.m in Sources */,
 				7F8C613D1D51CEDF0061FC43 /* ZLFCategroyCell.m in Sources */,
 				245DD0571D556FB900C9A6DE /* MyRemainedViewController.m in Sources */,
 				2494F2871D5375A500B04792 /* Call.m in Sources */,
+				2455BDA81D55EDEA002D7839 /* JFPrizeViewController.m in Sources */,
+				2455BDAF1D55EE0A002D7839 /* NoneData.m in Sources */,
 				7F8C613C1D51CEDF0061FC43 /* ZLFBottomBuyView.m in Sources */,
 				2494F29B1D5377E400B04792 /* LoginViewController.m in Sources */,
 				7F18C39A1D5319E500DA458D /* ZLFTopDataMode.m in Sources */,

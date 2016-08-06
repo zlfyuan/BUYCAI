@@ -1,14 +1,14 @@
 //
-//  ConsumeRecoderTableViewCell.m
+//  JFRecorderTableViewCell.m
 //  DianCaiBao
 //
-//  Created by 汤文洪 on 16/8/5.
+//  Created by 汤文洪 on 16/8/6.
 //  Copyright © 2016年 Tang. All rights reserved.
 //
 
-#import "ConsumeRecoderTableViewCell.h"
+#import "JFRecorderTableViewCell.h"
 
-@implementation ConsumeRecoderTableViewCell
+@implementation JFRecorderTableViewCell
 
 - (void)awakeFromNib {
     // Initialization code

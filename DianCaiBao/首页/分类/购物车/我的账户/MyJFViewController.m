@@ -96,7 +96,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
-       
+        JFPrizeViewController *jpv = [[JFPrizeViewController alloc]init];
+        [self.navigationController pushViewController:jpv animated:YES];
     }
     else if (indexPath.row == 1)
     {

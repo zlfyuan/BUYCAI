@@ -13,6 +13,7 @@
 #import "ClassifyViewController.h"
 #import "ZLFCityMode.h"
 #import "ShowMessage.h"
+#import "NewsViewController.h"
 #import <MJExtension.h>
 @interface FirstPageViewController ()<UITextFieldDelegate>{
     LunbopageView *pageView;
@@ -79,6 +80,7 @@
     self.navigationItem.leftBarButtonItems=@[negativeSpacer,ltBarBtn];
     
     UIButton *rtBtn=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 25, 35)];
+    [rtBtn addTarget:self action:@selector(rtBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     UIImageView *imgV2 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0 , 20, 20)];
     imgV2.image = [UIImage imageNamed:@"iconfont-xiaoxi"];
     [rtBtn addSubview:imgV2];
@@ -218,6 +220,12 @@
     }];
     [self.navigationController pushViewController:cv animated:YES];
 }
+
+-(void)rtBtnClicked{
+    NewsViewController *nv = [[NewsViewController alloc]init];
+    [self.navigationController pushViewController:nv animated:YES];
+}
+
 
 -(void)otherService
 {

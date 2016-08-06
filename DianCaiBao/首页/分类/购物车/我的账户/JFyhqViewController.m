@@ -38,11 +38,11 @@
 
 -(void)setNoneUIByView:(UIView *)byView
 {
-    UIImageView *noneImgView = [[UIImageView alloc]initWithFrame:CGRectMake(self.view.center.x-40, self.view.center.y-40, 80, 80)];
+    UIImageView *noneImgView = [[UIImageView alloc]initWithFrame:CGRectMake(byView.center.x-60, byView.center.y-60, 120, 120)];
     noneImgView.image = [UIImage imageNamed:@"noneData"];
     [byView addSubview:noneImgView];
     
-    UILabel *noneLab = [[UILabel alloc]initWithFrame:CGRectMake(noneImgView.frame.origin.x, noneImgView.frame.origin.y+noneImgView.frame.size.height+5, 70, 20)];
+    UILabel *noneLab = [[UILabel alloc]initWithFrame:CGRectMake(noneImgView.frame.origin.x+10, noneImgView.frame.origin.y+noneImgView.frame.size.height+5, 100, 20)];
     noneLab.font = [UIFont systemFontOfSize:16];
     noneLab.textColor = [UIColor orangeColor];
     noneLab.text = @"暂无数据";
@@ -71,7 +71,7 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (_TbvArr.count == 0) {
-        return _yhqTableView.frame.size.height;
+        return self.view.frame.size.height-140;;
     }
     return 44;
 }
@@ -89,7 +89,8 @@
         MyCell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     if (_TbvArr.count == 0) {
-        [self setNoneUIByView:MyCell.contentView];
+        MyCell.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-140);
+        [self setNoneUIByView:MyCell];
     }
     else
     {
@@ -101,14 +102,14 @@
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     UIView *detailView = [[UIView alloc]initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 40)];
-    detailView.backgroundColor = [UIColor lightGrayColor];
+    detailView.backgroundColor = [UIColor colorWithRed:229/255.f green:229/255.f blue:229/255.f alpha:1.0];
     [_yhqTableView addSubview:detailView];
-    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(10, 7, self.view.frame.size.width, 20)];
+    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, self.view.frame.size.width, 20)];
     lab.textColor = [UIColor darkGrayColor];
     lab.font = [UIFont systemFontOfSize:17];
     lab.text = @"优惠券列表";
     [detailView addSubview:lab];
-    UILabel *detailLab = [[UILabel alloc]initWithFrame:CGRectMake(detailView.frame.size.width-100, 7, 80, 20)];
+    UILabel *detailLab = [[UILabel alloc]initWithFrame:CGRectMake(detailView.frame.size.width-100, 10, 80, 20)];
     detailLab.font = [UIFont systemFontOfSize:15];
     detailLab.textColor = [UIColor redColor];
     detailLab.text = @"当前积分:0";

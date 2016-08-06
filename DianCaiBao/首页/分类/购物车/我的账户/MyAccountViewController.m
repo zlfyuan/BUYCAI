@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.view.backgroundColor = [UIColor colorWithRed:229/255.f green:229/255.f blue:229/255.f alpha:1.0];
     self.title = @"个人中心";
     [self setUI];
 }
@@ -32,7 +32,7 @@
 -(void)setUI
 {
     UIScrollView *bottomScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-64-44)];
-    bottomScrollView.backgroundColor = [UIColor lightGrayColor];
+    bottomScrollView.backgroundColor = [UIColor colorWithRed:229/255.f green:229/255.f blue:229/255.f alpha:1.0];
     bottomScrollView.bounces = NO;
     [self.view addSubview:bottomScrollView];
     
@@ -113,7 +113,7 @@
         for (int j=0; j<3; j++)
         {
             UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(marginX + (BW + mar) * j, marginY + 100 * i,BW,BH)];
-            btn.tag = i;
+            btn.tag = n;
             [btn addTarget:self action:@selector(bntClicked:) forControlEvents:UIControlEventTouchUpInside];
             [gonggeView addSubview:btn];
             UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 60, 60)];

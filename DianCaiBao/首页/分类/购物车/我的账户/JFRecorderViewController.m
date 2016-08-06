@@ -25,7 +25,7 @@
 }
 
 -(void)setNav{
-    self.title = @"兑换优惠券";
+    self.title = @"积分记录";
     UIBarButtonItem *negativeSpacer=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
     negativeSpacer.width=-10;
     UIButton *returnBtn = [[UIButton alloc]initWithFrame:CGRectMake(5, 10, 13, 23)];
@@ -37,11 +37,11 @@
 
 -(void)setNoneUIByView:(UIView *)byView
 {
-    UIImageView *noneImgView = [[UIImageView alloc]initWithFrame:CGRectMake(byView.center.x-40, byView.center.y-40, 80, 80)];
+    UIImageView *noneImgView = [[UIImageView alloc]initWithFrame:CGRectMake(byView.center.x-60, byView.center.y-60, 120, 120)];
     noneImgView.image = [UIImage imageNamed:@"noneData"];
     [byView addSubview:noneImgView];
     
-    UILabel *noneLab = [[UILabel alloc]initWithFrame:CGRectMake(noneImgView.frame.origin.x, noneImgView.frame.origin.y+noneImgView.frame.size.height+5, 70, 20)];
+    UILabel *noneLab = [[UILabel alloc]initWithFrame:CGRectMake(noneImgView.frame.origin.x+10, noneImgView.frame.origin.y+noneImgView.frame.size.height+5, 100, 20)];
     noneLab.font = [UIFont systemFontOfSize:16];
     noneLab.textColor = [UIColor orangeColor];
     noneLab.text = @"暂无数据";
@@ -82,20 +82,20 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *identifier = @"mycell";
+    
+    
     UITableViewCell *MyCell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (!MyCell) {
         MyCell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
         MyCell.selectionStyle = UITableViewCellSelectionStyleNone;
     
-    if (_TbvArr.count == 0) {
-        MyCell.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-203);
-        [self setNoneUIByView:MyCell];
-    }
-    else
-    {
-        MyCell.textLabel.text = @"6666";
-    }}
-    return MyCell;
+    
+        MyCell.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-203);}
+     if (_TbvArr.count == 0) {
+         [self setNoneUIByView:MyCell];
+                }
+    
+        return MyCell;
 }
 
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
@@ -154,7 +154,7 @@
         [topView addSubview:lab];
     }
     
-    UIView *bottomLineView = [[UIView alloc]initWithFrame:CGRectMake(0,110, self.view.frame.size.width, 1)];
+    UIView *bottomLineView = [[UIView alloc]initWithFrame:CGRectMake(10,110, self.view.frame.size.width-20, 1)];
     bottomLineView.backgroundColor = [UIColor lightGrayColor];
     [topView addSubview:bottomLineView];
     
