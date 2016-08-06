@@ -7,6 +7,9 @@
 //
 
 #import "MyJFViewController.h"
+#import "JFPrizeViewController.h"
+#import "JFyhqViewController.h"
+#import "JFRecorderViewController.h"
 
 @interface MyJFViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -91,6 +94,19 @@
     return myCell;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+       
+    }
+    else if (indexPath.row == 1)
+    {
+        JFyhqViewController *jfv = [[JFyhqViewController alloc]init];
+        [self.navigationController pushViewController:jfv animated:YES];
+    }else {
+        JFRecorderViewController *jrv = [[JFRecorderViewController alloc]init];
+        [self.navigationController pushViewController:jrv animated:YES];
+    }
+}
 
 -(void)returnBtnClicked
 {

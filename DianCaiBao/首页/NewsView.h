@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void (^btnClickBlock)(NSInteger index);
+
 @interface NewsView : UIView
 
--(instancetype)initWithFrame:(CGRect)frame imgArr:(NSArray *)imgArr btnTitleArr:(NSArray *)titleArr;
+@property(nonatomic,copy)btnClickBlock block;
+
+-(instancetype)initWithFrame:(CGRect)frame imgArr:(NSArray *)imgArr btnTitleArr:(NSArray *)titleArr backblock:(void(^)(NSInteger index))block;
 
 @end

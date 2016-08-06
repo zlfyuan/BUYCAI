@@ -64,7 +64,7 @@
     
     //设置scrollView的frame
     self.scrollView.frame = self.bounds;
-    
+    self.scrollView.bounces = NO;
     //获得scrollView的尺寸
     CGFloat scrollW = self.scrollView.frame.size.width;
     CGFloat scrollH = self.scrollView.frame.size.height;

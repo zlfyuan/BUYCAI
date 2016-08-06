@@ -13,6 +13,7 @@
 #import "MyJFViewController.h"
 #import "MyYHQViewController.h"
 #import "PersonInformationViewController.h"
+#import "MyRemainedViewController.h"
 
 @interface MyAccountViewController ()
 
@@ -137,6 +138,12 @@
         {
             ManagerAddressViewController *mav =[[ManagerAddressViewController alloc]init];
             [self.navigationController pushViewController:mav animated:YES];
+        }
+            break;
+        case 2:
+        {
+            MyRemainedViewController *mrv =[[MyRemainedViewController alloc]init];
+            [self.navigationController pushViewController:mrv animated:YES];
         }
             break;
         case 3:
