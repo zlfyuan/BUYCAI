@@ -65,10 +65,12 @@
     _onceShipBut = [[UIButton alloc]initWithFrame:(CGRect){_alertLabel.width + _alertLabel.x - 10,5, allW/2,self.height - 2*5}];
     _onceShipBut.layer.cornerRadius = 6;
     _onceShipBut.layer.masksToBounds = YES;
+    _onceShipBut.tag = 2000;
     _onceShipBut.backgroundColor = [UIColor orangeColor];
     [_onceShipBut setTitle:@"一键快购" forState:UIControlStateNormal];
     _onceShipBut.titleLabel.font = [UIFont systemFontOfSize:15];
     _onceShipBut.titleLabel.adjustsFontSizeToFitWidth = YES;
+    [_onceShipBut addTarget:self action:@selector(_onceShipButClicked) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:_onceShipBut];
     
     _addShipCar = [[UIButton alloc]initWithFrame:(CGRect){_onceShipBut.width + _onceShipBut.x + 5,5, _onceShipBut.width,self.height - 2*5}];
@@ -78,14 +80,23 @@
     [_addShipCar setTitle:@"加入购物车" forState:UIControlStateNormal];
     _addShipCar.titleLabel.font = [UIFont systemFontOfSize:15];
     _addShipCar.titleLabel.adjustsFontSizeToFitWidth = YES;
-    [self addSubview:_addShipCar];
+    [_addShipCar addTarget:self action:@selector(_addShipCarClicked) forControlEvents:UIControlEventTouchUpInside];
 
-    
-    
-    
-    
+    [self addSubview:_addShipCar];
    
 }
+
+-(void)_addShipCarClicked{
+    if ([self.bottomdelegate respondsToSelector:@selector(bottomAndItem:item:)]) {
+        [self.bottomdelegate bottomAndItem:self item:_addShipCar.tag];
+    }
+}
+-(void)_onceShipButClicked{
+    if ([self.bottomdelegate respondsToSelector:@selector(bottomAndItem:item:)]) {
+        [self.bottomdelegate bottomAndItem:self item:_onceShipBut.tag];
+    }
+}
+
 
 -(void)setPriceLabelText:(NSString *)price Count:(NSString *)count{
     self.priceLabel.text = price;

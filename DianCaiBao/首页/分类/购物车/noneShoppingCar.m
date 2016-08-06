@@ -8,12 +8,17 @@
 
 #import "noneShoppingCar.h"
 
+@interface noneShoppingCar()
+@property (nonatomic, strong, nullable) ButtonBlock block;
+@end
+
 @implementation noneShoppingCar
 {
     UIImageView *shoppingCar;
     UILabel *detailLab;
     UIButton *goBuyButton;
 }
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -34,7 +39,7 @@
 -(void)setUI
 {
     shoppingCar = [[UIImageView alloc]init];
-    shoppingCar.image = [UIImage imageNamed:@"gouwuche-1"];
+    shoppingCar.image = [UIImage imageNamed:@"nullShoppingCar"];
     [self addSubview:shoppingCar];
     
     detailLab = [[UILabel alloc]init];
@@ -52,6 +57,7 @@
     [goBuyButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
     [goBuyButton setTitle:@"前去逛逛" forState:UIControlStateNormal];
     goBuyButton.titleLabel.font = [UIFont systemFontOfSize:15];
+    [goBuyButton addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:goBuyButton];
 }
 
@@ -60,6 +66,17 @@
     shoppingCar.frame = CGRectMake(self.center.x-55, 30, 110, 110);
     detailLab.frame = CGRectMake(self.center.x-120, shoppingCar.frame.origin.y+shoppingCar.frame.size.height+20, 240, 18) ;
     goBuyButton.frame = CGRectMake(self.center.x-45, detailLab.frame.origin.y+detailLab.frame.size.height+20, 90, 35);
+}
+
+//实现block回调的方法
+-(void)addButtonAction:(ButtonBlock)block {
+    self.block = block;
+}
+
+-(void)buttonAction {
+    if (self.block) {
+        self.block(self);
+    }
 }
 
 @end

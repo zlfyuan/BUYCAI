@@ -47,7 +47,7 @@
 ///点击按钮时的块，含有按钮的索引和按钮对象
 @property(nonatomic, strong)void (^clickBlock)(NSInteger index, UIButton* button);
 ///代理属性
-@property(nonatomic, strong)id<SegmentedControlDelegate> YLdelegate;
+@property(nonatomic, strong)id<SegmentedControlDelegate> Segdelegate;
 
 /**
  * 初始化方法

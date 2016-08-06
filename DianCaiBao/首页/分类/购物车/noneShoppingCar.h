@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void (^ButtonBlock) (id sender);
+
 @interface noneShoppingCar : UIView
 
-
+-(void)addButtonAction:(ButtonBlock)block;
 
 @end

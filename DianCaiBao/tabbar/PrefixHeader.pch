@@ -13,6 +13,16 @@
 #import "UIBarButtonItem+HuUIbaritm.h"
 #import "ShowMessage.h"
 
+
+
+
+
+#define Screen [UIScreen mainScreen].bounds
+#define SWIDTH [UIScreen mainScreen].bounds.size.width
+#define SHEIGHT [UIScreen mainScreen].bounds.size.height
+#define WIDTH self.view.frame.size.width
+#define HEIGHT self.view.frame.size.height
+
 #define NotificationCenter [NSNotificationCenter defaultCenter]
 #define MYCOLOR(r,g,b) [UIColor colorWithRed:r/225.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 //如果是在调试阶段

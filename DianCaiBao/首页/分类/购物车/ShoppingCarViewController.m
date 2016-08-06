@@ -9,7 +9,7 @@
 #import "ShoppingCarViewController.h"
 #import "LoginViewController.h"
 #import "noneShoppingCar.h"
-
+#import "ClassifyViewController.h"
 @interface ShoppingCarViewController ()
 
 @end
@@ -24,14 +24,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = @"购物车";
     self.view.backgroundColor = [UIColor yellowColor];
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(50, 100, 100, 30)];
-    [btn setBackgroundColor:[UIColor redColor]];
-    [btn setTitle:@"登录" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(btnClicked) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
-    
     [self setUI];
     
 }
@@ -39,6 +33,11 @@
 -(void)setUI
 {
     noneShoppingCar *nv = [[noneShoppingCar alloc]initWithFrame:self.view.frame];
+    [nv addButtonAction:^(id sender) {
+        
+      //  [self.navigationController pushViewController:[[ClassifyViewController alloc]init] animated:YES];
+        
+    }];
     [self.view addSubview:nv];
 }
 

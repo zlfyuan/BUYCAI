@@ -15,6 +15,6 @@ typedef void(^city)(NSString *cityString);
 @property (nonatomic, copy)city blockcity;
 @property (nonatomic, retain)UIColor *titleColo1r;
 @property (nonatomic, retain)UIColor *backgroundColor1;
-
+@property (nonatomic, assign)void(^first)(NSInteger index);
 -(instancetype)initWithFrame:(CGRect)frame title:(NSArray *)titlesArray blackBlock:(void (^)(NSInteger ))blocking blackBlockTitle:(void (^)(NSString *title))blockCity;
 @end

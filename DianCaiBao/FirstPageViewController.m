@@ -10,6 +10,7 @@
 #import "LunbopageView.h"
 #import "chooseViewController.h"
 #import "SearchViewController.h"
+#import "ClassifyViewController.h"
 #import "ZLFCityMode.h"
 #import "ShowMessage.h"
 #import <MJExtension.h>
@@ -144,17 +145,21 @@
     for (int i=0; i<8; i++)
     {
         CGFloat megin=(self.view.frame.size.width-200)/5;
-        UIImageView *userImgView=[[UIImageView alloc]initWithFrame:CGRectMake(((i%4)+1)*megin+(i%4)*50,h+(i/4)*70+(i/4)*30, 50, 50)];
+        UIButton *but = [[UIButton alloc]initWithFrame:(CGRect){((i%4)+1)*megin+(i%4)*50,h+(i/4)*70+(i/4)*30, 60, 80}];
+        but.tag = i + 1000;
+        [but addTarget:self action:@selector(buttonCategroy:) forControlEvents:UIControlEventTouchUpInside];
+        [bottoomScroll addSubview:but];
+        UIImageView *userImgView=[[UIImageView alloc]initWithFrame:CGRectMake(5,5, 50, 50)];
         userImgView.image  = [UIImage imageNamed:imgArr[i]];
-        [bottoomScroll addSubview:userImgView];
-        CGFloat megin2=(self.view.frame.size.width-240)/5;
-        UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(((i%4)+1)*megin2+(i%4)*60,userImgView.frame.origin.y+50, 60, 30)];
+        [but addSubview:userImgView];
+        UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(userImgView.x,userImgView.height + userImgView.y, 60, 30)];
         lab.text = textArr[i];
         lab.textAlignment = NSTextAlignmentCenter;
         lab.font = [UIFont systemFontOfSize:12];
-        [bottoomScroll addSubview:lab];
-        dpxxY = userImgView.frame.origin.y-90;
+        [but addSubview:lab];
+        dpxxY = but.frame.origin.y-90;
         AllHeight += 200;
+        
     }
     
     UILabel *dpxx = [[UILabel alloc]initWithFrame:CGRectMake(0,dpxxY + 180, self.view.frame.size.width, 40)];
@@ -188,8 +193,11 @@
     bottoomScroll.contentSize = CGSizeMake(self.view.frame.size.width, AllHeight-1400);
     
 }
-
-
+#pragma mark------------------分类按钮监听
+-(void)buttonCategroy:(UIButton *)btn{
+//    ClassifyViewController *cateVC = [[ClassifyViewController alloc]init];
+//    [self.navigationController pushViewController:cateVC animated:YES];
+}
 
 #pragma mark  -searchController协议方法.
 -(BOOL)textFieldShouldBeginEditing:(UITextField *)textField

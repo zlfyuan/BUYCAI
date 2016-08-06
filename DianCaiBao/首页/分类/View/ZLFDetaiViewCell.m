@@ -42,17 +42,20 @@
     CGFloat marginY = 15;
     CGFloat marginX = 5;
     
-    self.vegetableImage = [[UIImageView alloc]initWithFrame:(CGRect){marginX, marginY ,2*self.height/1.5, 2*self.height/1.5}];
-    self.vegetableImage.layer.borderColor = [UIColor grayColor].CGColor;
-    self.vegetableImage.layer.borderWidth = 1.0;
-    self.vegetableImage.backgroundColor = [UIColor clearColor];
-    [self.contentView addSubview:self.vegetableImage];
+    UIView *borderView = [[UIView alloc]initWithFrame:(CGRect){marginX, marginY ,2*self.height/1.5, 2*self.height/1.5}];
+    borderView.layer.borderColor = [UIColor grayColor].CGColor;
+    borderView.layer.borderWidth = 1.0;
+    borderView.backgroundColor = [UIColor clearColor];
+    [self.contentView addSubview:borderView];
+    self.vegetableImage = [[UIImageView alloc]initWithFrame:(CGRect){5,5,borderView.width - 10,borderView.width -10}];
+     self.vegetableImage.backgroundColor = [UIColor clearColor];
+    [borderView addSubview:self.vegetableImage];
     
-    UIView *viewLine = [[UIView alloc]initWithFrame:(CGRect){0,self.vegetableImage.height + self.vegetableImage.y + marginY ,self.width,1}];
+    UIView *viewLine = [[UIView alloc]initWithFrame:(CGRect){0,borderView.height + borderView.y + marginY ,self.width,1}];
     viewLine.backgroundColor = [UIColor orangeColor];
     [self.contentView addSubview:viewLine];
     
-    self.vegetableName = [[UILabel alloc]initWithFrame:(CGRect){self.vegetableImage.width + self.vegetableImage.x +10, self.vegetableImage.y, self.width - self.vegetableImage.width - self.vegetableImage.x, 15}];
+    self.vegetableName = [[UILabel alloc]initWithFrame:(CGRect){borderView.width + borderView.x +10, borderView.y, self.width - borderView.width - borderView.x, 15}];
 //    self.vegetableName.textAlignment = NSTextAlignmentCenter;
     self.vegetableName.font = [UIFont systemFontOfSize:15];
     self.vegetableName.text = @"大西芹2斤/袋";
@@ -61,7 +64,7 @@
     self.vegetableName.adjustsFontSizeToFitWidth = YES;
     [self.contentView addSubview:self.vegetableName];
     
-    self.vegetablePrice = [[UILabel alloc]initWithFrame:(CGRect){self.vegetableName.x,self.vegetableName.y + self.vegetableName.height +5, self.width - self.vegetableImage.width - self.vegetableImage.x, 15}];
+    self.vegetablePrice = [[UILabel alloc]initWithFrame:(CGRect){self.vegetableName.x,self.vegetableName.y + self.vegetableName.height +5, self.width - borderView.width - borderView.x, 15}];
 //    self.vegetablePrice.textAlignment = NSTextAlignmentCenter;
     self.vegetablePrice.font = [UIFont systemFontOfSize:15];
     self.vegetablePrice.text = @"¥ 20.0";

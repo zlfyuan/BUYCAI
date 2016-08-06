@@ -26,7 +26,10 @@
 @end
 
 @implementation LoginViewController
-
+-(void)viewDidAppear:(BOOL)animated{
+    [super  viewDidAppear:animated];
+    self.tabBarController.tabBar.hidden = YES;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -56,6 +59,7 @@
     //密码输入框
     _passwordTf = [[TWHTextFiled alloc]initWithFrame:CGRectMake(15, 105, self.view.frame.size.width-30, 40) placehold:@"请输入密码"];
     _passwordTf.delegate = self;
+    _passwordTf.secureTextEntry = YES;
     [self.view addSubview:_passwordTf];
     
     
@@ -137,9 +141,13 @@
         parms[@"password"] = _passwordTf.text;
         [[LXGNetWorkQuery shareManager]AFrequestData:@"10002" HttpMethod:@"POST" params:parms completionHandle:^(id result) {
             HULog(@"%@",result);
-            [ShowMessage showMessage:@"登入成功" duration:2.0];
+            [ShowMessage showMessage:@"登入成功" duration:1.5];
             [LXGNetWorkQuery shareManager].isLogin = YES;
-#warning 保存登入信息
+            [NSThread sleepForTimeInterval:2.5];
+            [self.navigationController popToRootViewControllerAnimated:YES];
+            
+#warning 保存登入信息待做
+            
             NSMutableArray *userInfo = [NSMutableArray new];
             [userInfo addObject:result[@"data"]];
             if (![[NSUserDefaults standardUserDefaults] objectForKey:@"users"]) {

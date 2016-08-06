@@ -20,7 +20,10 @@
 @end
 
 @implementation FindPwViewController
-
+-(void)viewDidAppear:(BOOL)animated{
+    [super  viewDidAppear:animated];
+    self.tabBarController.tabBar.hidden = YES;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -58,7 +61,7 @@
     
 //    //新密码
     _newPwTf = [[TWHTextFiled alloc]initWithFrame:CGRectMake(15, _YZMTf.frame.origin.y+_YZMTf.frame.size.height+15, self.view.frame.size.width-30, 40) placehold:@"请输入新密码"];
-    
+     _newPwTf.secureTextEntry = YES;
     [self.view addSubview:_newPwTf];
     
     //再次输入密码

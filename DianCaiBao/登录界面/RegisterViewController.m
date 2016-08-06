@@ -105,6 +105,7 @@
     //新密码
     _newPwTf = [[TWHTextFiled alloc]initWithFrame:CGRectMake(15, _PhoneNumTf.frame.origin.y+_PhoneNumTf.frame.size.height+15, self.view.frame.size.width-30, 40) placehold:@"请输入新密码(可为字母和数字或下划线组成,长6-16)"];
     _newPwTf.delegate = self;
+     _newPwTf.secureTextEntry = YES;
     _newPwTf.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
     [_bottomScroll addSubview:_newPwTf];
     _AllHeight += _newPwTf.frame.size.height+15;
@@ -112,6 +113,7 @@
     //再次输入密码
     _againPwTf = [[TWHTextFiled alloc]initWithFrame:CGRectMake(15, _newPwTf.frame.origin.y+_newPwTf.frame.size.height+15, self.view.frame.size.width-30, 40) placehold:@"请再次输入登录密码"];
     _againPwTf.delegate = self;
+     _againPwTf.secureTextEntry = YES;
     _againPwTf.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
     [_bottomScroll addSubview:_againPwTf];
     _AllHeight += _againPwTf.frame.size.height+15;
@@ -310,22 +312,13 @@
     [self presentViewController:ac animated:YES completion:^{}];
 
 }
+
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [_bottomScroll endEditing:YES];
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super  viewDidAppear:animated];
+    self.tabBarController.tabBar.hidden = YES;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

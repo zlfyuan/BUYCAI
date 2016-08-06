@@ -33,7 +33,7 @@
     if([super initWithFrame:frame]){
     self.placeholder = placehold;
     self.layer.borderColor = [UIColor lightGrayColor].CGColor ;
-    self.layer.borderWidth = 1.0f;
+    self.layer.borderWidth = 0.5f;
     [self setValue:[UIFont boldSystemFontOfSize:13] forKeyPath:@"_placeholderLabel.font"];
     self.tintColor=[UIColor orangeColor];
     UIView *lv=[[UIView alloc]init];

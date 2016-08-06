@@ -14,7 +14,7 @@
 #import "MyYHQViewController.h"
 #import "PersonInformationViewController.h"
 #import "MyRemainedViewController.h"
-
+#import "ZLFOrderViewController.h"
 @interface MyAccountViewController ()
 
 @end
@@ -100,28 +100,36 @@
     gonggeView.backgroundColor = [UIColor whiteColor];
     [bottomScrollView addSubview:gonggeView];
     
-    NSArray *Arr = @[@"我的订单",@"我的地址",@"我的余额",@"我的积分",@"优惠券",@"我的数据",@"修改密码",@"退出登录"];
-    NSArray *imgArr = @[@"iconfont-dingdan-0",@"iconfont-dizhi",@"iconfont-chongzhi",@"iconfont-jifen",@"iconfont-quan",@"iconfont-shuju",@"iconfont-mima",@"iconfont-out"];
+    NSArray *Arr = @[@"我的订单",@"我的地址",@"我的余额",@"我的积分",@"优惠券",@"我的数据",@"修改密码",@"退出登录",@""];
+    NSArray *imgArr = @[@"iconfont-dingdan-0",@"iconfont-dizhi",@"iconfont-chongzhi",@"iconfont-jifen",@"iconfont-quan",@"iconfont-shuju",@"iconfont-mima",@"iconfont-out",@""];
     CGFloat BW = 60;
     CGFloat BH = 80;
-    CGFloat marginX = (self.view.frame.size.width-180)/4;
-    CGFloat marginY = 10;
-    for (int i=0; i<8; i++) {
-        UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake((i%3)*BW+((i%3)+1)*marginX,30+(i/3)*BH+((i/3)+1)*marginY, BW, BH)];
-        btn.tag = i;
-        [btn addTarget:self action:@selector(bntClicked:) forControlEvents:UIControlEventTouchUpInside];
-        [gonggeView addSubview:btn];
-//        btn.backgroundColor = [UIColor redColor];
-        UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 60, 60)];
-        imgView.image = [UIImage imageNamed:imgArr[i]];
-        [btn addSubview:imgView];
-        UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(0, 65, 60, 15)];
-        lab.textColor = [UIColor darkGrayColor];
-        lab.font = [UIFont systemFontOfSize:12];
-        lab.text = Arr[i];
-        lab.textAlignment = NSTextAlignmentCenter;
-        [btn addSubview:lab];
+    CGFloat marginX =30;
+    CGFloat marginY = 30;
+    NSInteger n = 0;
+    CGFloat mar = (SWIDTH - marginX *2 - BW* 3 ) / 2;
+    for (int i=0; i<3; i++)
+    {
+        for (int j=0; j<3; j++)
+        {
+            UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(marginX + (BW + mar) * j, marginY + 100 * i,BW,BH)];
+            btn.tag = i;
+            [btn addTarget:self action:@selector(bntClicked:) forControlEvents:UIControlEventTouchUpInside];
+            [gonggeView addSubview:btn];
+            UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 60, 60)];
+            imgView.image = [UIImage imageNamed:imgArr[n]];
+            [btn addSubview:imgView];
+            UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(0, 65, 60, 15)];
+            lab.textColor = [UIColor darkGrayColor];
+            lab.font = [UIFont systemFontOfSize:12];
+            lab.text = Arr[n];
+            lab.textAlignment = NSTextAlignmentCenter;
+            [btn addSubview:lab];
+            ++n;
+
+        }
     }
+
 }
 
 -(void)userViewTap
@@ -134,6 +142,12 @@
 {
     UIButton *btn = sender;
     switch (btn.tag) {
+        case 0:
+        {
+            ZLFOrderViewController *mav =[[ZLFOrderViewController alloc]init];
+            [self.navigationController pushViewController:mav animated:YES];
+        }
+            break;
         case 1:
         {
             ManagerAddressViewController *mav =[[ManagerAddressViewController alloc]init];

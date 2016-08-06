@@ -40,7 +40,6 @@
 		2494F2831D53757F00B04792 /* ShowMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494F2821D53757F00B04792 /* ShowMessage.m */; };
 		2494F2871D5375A500B04792 /* Call.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494F2861D5375A500B04792 /* Call.m */; };
 		2494F28A1D5375BB00B04792 /* JudgePhoneNumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494F2891D5375BB00B04792 /* JudgePhoneNumer.m */; };
-		2494F2981D53768A00B04792 /* noneShoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494F2971D53768A00B04792 /* noneShoppingCar.m */; };
 		2494F29B1D5377E400B04792 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494F29A1D5377E400B04792 /* LoginViewController.m */; };
 		2494F29E1D53780200B04792 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494F29D1D53780200B04792 /* RegisterViewController.m */; };
 		2494F2A11D53782500B04792 /* FindPwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494F2A01D53782500B04792 /* FindPwViewController.m */; };
@@ -67,11 +66,14 @@
 		7F18C3A11D533E4100DA458D /* ZLFDetaiVegeTableMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F18C3A01D533E4100DA458D /* ZLFDetaiVegeTableMode.m */; };
 		7F18C3A41D533F5D00DA458D /* ZLFDetaiCateMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F18C3A31D533F5D00DA458D /* ZLFDetaiCateMode.m */; };
 		7F32EB511D52D1E20074E2FA /* ZLFHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F32EB501D52D1E20074E2FA /* ZLFHttpRequest.m */; };
-		7F8C613B1D51CEDF0061FC43 /* segmentedcontrol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C61361D51CEDF0061FC43 /* segmentedcontrol.m */; };
+		7F8408121D55D9D700DBA934 /* noneShoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8408111D55D9D700DBA934 /* noneShoppingCar.m */; };
 		7F8C613C1D51CEDF0061FC43 /* ZLFBottomBuyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C61381D51CEDF0061FC43 /* ZLFBottomBuyView.m */; };
 		7F8C613D1D51CEDF0061FC43 /* ZLFCategroyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C613A1D51CEDF0061FC43 /* ZLFCategroyCell.m */; };
 		7F8C61411D51CF0D0061FC43 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C61401D51CF0D0061FC43 /* ClassifyViewController.m */; };
 		7F8C614B1D51FFF80061FC43 /* ZLFDetaiViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C61491D51FFF80061FC43 /* ZLFDetaiViewCell.m */; };
+		7FBCB8E91D55824E000F862C /* segmentedcontrol.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBCB8E71D55824E000F862C /* segmentedcontrol.m */; };
+		7FBCB8F01D5583DF000F862C /* ZLFOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBCB8EF1D5583DF000F862C /* ZLFOrderViewController.m */; };
+		7FBCB8F31D5593DE000F862C /* ZLFVegetableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBCB8F21D5593DE000F862C /* ZLFVegetableView.m */; };
 		7FE9313D1D5474CF008D6683 /* ZLFUserMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9313C1D5474CF008D6683 /* ZLFUserMode.m */; };
 		843E3F7370EED3AAE08045B1 /* libPods-DianCaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA2C57254ECD574F53DCC9C /* libPods-DianCaiBao.a */; };
 /* End PBXBuildFile section */
@@ -139,8 +141,6 @@
 		2494F2861D5375A500B04792 /* Call.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Call.m; sourceTree = "<group>"; };
 		2494F2881D5375BB00B04792 /* JudgePhoneNumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudgePhoneNumer.h; sourceTree = "<group>"; };
 		2494F2891D5375BB00B04792 /* JudgePhoneNumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudgePhoneNumer.m; sourceTree = "<group>"; };
-		2494F2961D53768A00B04792 /* noneShoppingCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noneShoppingCar.h; sourceTree = "<group>"; };
-		2494F2971D53768A00B04792 /* noneShoppingCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noneShoppingCar.m; sourceTree = "<group>"; };
 		2494F2991D5377E400B04792 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		2494F29A1D5377E400B04792 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2494F29C1D53780200B04792 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 		7F18C3A31D533F5D00DA458D /* ZLFDetaiCateMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFDetaiCateMode.m; sourceTree = "<group>"; };
 		7F32EB4F1D52D1E20074E2FA /* ZLFHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFHttpRequest.h; sourceTree = "<group>"; };
 		7F32EB501D52D1E20074E2FA /* ZLFHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFHttpRequest.m; sourceTree = "<group>"; };
-		7F8C61351D51CEDF0061FC43 /* segmentedcontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segmentedcontrol.h; sourceTree = "<group>"; };
-		7F8C61361D51CEDF0061FC43 /* segmentedcontrol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = segmentedcontrol.m; sourceTree = "<group>"; };
+		7F8408101D55D9D700DBA934 /* noneShoppingCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noneShoppingCar.h; sourceTree = "<group>"; };
+		7F8408111D55D9D700DBA934 /* noneShoppingCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noneShoppingCar.m; sourceTree = "<group>"; };
 		7F8C61371D51CEDF0061FC43 /* ZLFBottomBuyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFBottomBuyView.h; sourceTree = "<group>"; };
 		7F8C61381D51CEDF0061FC43 /* ZLFBottomBuyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFBottomBuyView.m; sourceTree = "<group>"; };
 		7F8C61391D51CEDF0061FC43 /* ZLFCategroyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFCategroyCell.h; sourceTree = "<group>"; };
@@ -198,6 +198,12 @@
 		7F8C61431D51CF660061FC43 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7F8C61481D51FFF80061FC43 /* ZLFDetaiViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFDetaiViewCell.h; sourceTree = "<group>"; };
 		7F8C61491D51FFF80061FC43 /* ZLFDetaiViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFDetaiViewCell.m; sourceTree = "<group>"; };
+		7FBCB8E71D55824E000F862C /* segmentedcontrol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = segmentedcontrol.m; sourceTree = "<group>"; };
+		7FBCB8E81D55824E000F862C /* segmentedcontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segmentedcontrol.h; sourceTree = "<group>"; };
+		7FBCB8EE1D5583DF000F862C /* ZLFOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFOrderViewController.h; sourceTree = "<group>"; };
+		7FBCB8EF1D5583DF000F862C /* ZLFOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFOrderViewController.m; sourceTree = "<group>"; };
+		7FBCB8F11D5593DE000F862C /* ZLFVegetableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFVegetableView.h; sourceTree = "<group>"; };
+		7FBCB8F21D5593DE000F862C /* ZLFVegetableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFVegetableView.m; sourceTree = "<group>"; };
 		7FE9313B1D5474CF008D6683 /* ZLFUserMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFUserMode.h; sourceTree = "<group>"; };
 		7FE9313C1D5474CF008D6683 /* ZLFUserMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFUserMode.m; sourceTree = "<group>"; };
 		AFA2C57254ECD574F53DCC9C /* libPods-DianCaiBao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DianCaiBao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,8 +259,8 @@
 			children = (
 				245DD06C1D55715600C9A6DE /* ShoppingCarViewController.h */,
 				245DD06D1D55715600C9A6DE /* ShoppingCarViewController.m */,
-				2494F2961D53768A00B04792 /* noneShoppingCar.h */,
-				2494F2971D53768A00B04792 /* noneShoppingCar.m */,
+				7F8408101D55D9D700DBA934 /* noneShoppingCar.h */,
+				7F8408111D55D9D700DBA934 /* noneShoppingCar.m */,
 			);
 			name = "购物车";
 			path = "首页/分类/购物车";
@@ -265,6 +271,7 @@
 			children = (
 				245DD0471D556F8200C9A6DE /* MyAccountViewController.h */,
 				245DD0481D556F8200C9A6DE /* MyAccountViewController.m */,
+				7FBCB8EA1D55833A000F862C /* 我的订单 */,
 				245DD06B1D55711600C9A6DE /* 管理地址 */,
 				245DD06A1D55710300C9A6DE /* 修改密码 */,
 				245DD05B1D55704D00C9A6DE /* 我的积分 */,
@@ -529,8 +536,8 @@
 		7F8C61341D51CEDF0061FC43 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7F8C61351D51CEDF0061FC43 /* segmentedcontrol.h */,
-				7F8C61361D51CEDF0061FC43 /* segmentedcontrol.m */,
+				7FBCB8E81D55824E000F862C /* segmentedcontrol.h */,
+				7FBCB8E71D55824E000F862C /* segmentedcontrol.m */,
 				7F8C61371D51CEDF0061FC43 /* ZLFBottomBuyView.h */,
 				7F8C61381D51CEDF0061FC43 /* ZLFBottomBuyView.m */,
 				7F8C61391D51CEDF0061FC43 /* ZLFCategroyCell.h */,
@@ -539,6 +546,8 @@
 				7F8C61491D51FFF80061FC43 /* ZLFDetaiViewCell.m */,
 				7F18C38F1D53042100DA458D /* ZLFSegmentControll.h */,
 				7F18C3901D53042100DA458D /* ZLFSegmentControll.m */,
+				7FBCB8F11D5593DE000F862C /* ZLFVegetableView.h */,
+				7FBCB8F21D5593DE000F862C /* ZLFVegetableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -569,6 +578,15 @@
 				7F32EB501D52D1E20074E2FA /* ZLFHttpRequest.m */,
 			);
 			path = "网络请求";
+			sourceTree = "<group>";
+		};
+		7FBCB8EA1D55833A000F862C /* 我的订单 */ = {
+			isa = PBXGroup;
+			children = (
+				7FBCB8EE1D5583DF000F862C /* ZLFOrderViewController.h */,
+				7FBCB8EF1D5583DF000F862C /* ZLFOrderViewController.m */,
+			);
+			path = "我的订单";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -700,12 +718,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2495ABDD1D503BBA00E4E692 /* UIBarButtonItem+HuUIbaritm.m in Sources */,
+				7F8408121D55D9D700DBA934 /* noneShoppingCar.m in Sources */,
 				7F18C3911D53042100DA458D /* ZLFSegmentControll.m in Sources */,
 				7F18C3A41D533F5D00DA458D /* ZLFDetaiCateMode.m in Sources */,
 				245DD04D1D556F8200C9A6DE /* MyAccountViewController.m in Sources */,
 				245DD0881D55765F00C9A6DE /* RechargeViewController.m in Sources */,
 				7F18C38A1D52D60B00DA458D /* Foundation+Log.m in Sources */,
-				2494F2981D53768A00B04792 /* noneShoppingCar.m in Sources */,
+				7FBCB8F31D5593DE000F862C /* ZLFVegetableView.m in Sources */,
 				245DD0641D55707100C9A6DE /* JFPrizeViewController.m in Sources */,
 				2494F2831D53757F00B04792 /* ShowMessage.m in Sources */,
 				245DD0581D556FB900C9A6DE /* MyYHQViewController.m in Sources */,
@@ -730,6 +749,7 @@
 				7F18C39E1D5326B400DA458D /* ZLFCityMode.m in Sources */,
 				245DD04B1D556F8200C9A6DE /* ManagerAddressViewController.m in Sources */,
 				245DD04E1D556F8200C9A6DE /* MyJFViewController.m in Sources */,
+				7FBCB8E91D55824E000F862C /* segmentedcontrol.m in Sources */,
 				245DD05A1D556FB900C9A6DE /* yhqDetailViewController.m in Sources */,
 				2494F27D1D53751800B04792 /* TWHButton.m in Sources */,
 				7F18C3941D530E7D00DA458D /* LXGNetWorkQuery.m in Sources */,
@@ -740,9 +760,9 @@
 				24660D791D508FE5009BD672 /* chooseCityTableViewCell.m in Sources */,
 				245DD0671D55707100C9A6DE /* NoneData.m in Sources */,
 				2495ABBC1D503B8B00E4E692 /* main.m in Sources */,
+				7FBCB8F01D5583DF000F862C /* ZLFOrderViewController.m in Sources */,
 				2494F29E1D53780200B04792 /* RegisterViewController.m in Sources */,
 				245DD0871D55765F00C9A6DE /* ConsumeRecorderViewController.m in Sources */,
-				7F8C613B1D51CEDF0061FC43 /* segmentedcontrol.m in Sources */,
 				245DD0851D55765F00C9A6DE /* ConsumeRecoderTableViewCell.m in Sources */,
 				7F8C614B1D51FFF80061FC43 /* ZLFDetaiViewCell.m in Sources */,
 				2495ABEA1D503BE100E4E692 /* FirstPageViewController.m in Sources */,

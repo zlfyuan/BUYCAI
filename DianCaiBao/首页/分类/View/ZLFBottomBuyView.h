@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ZLFBottomBuyView;
 
+@protocol BottomDelegate <NSObject>
+@required
+-(void)bottomAndItem:(ZLFBottomBuyView *)bottomView item:(NSInteger)butag;
+
+@end
 @interface ZLFBottomBuyView : UIView
 {
     UIImageView *_shipImage;
@@ -17,8 +23,22 @@
     UIButton *_onceShipBut;
     UIButton *_addShipCar;
 }
+
+/**单价*/
 @property (nonatomic, strong)UILabel *priceLabel;
+/**菜品数量*/
 @property (nonatomic, strong)UILabel *ShipingCount;
+
+/**代理*/
+@property(nonatomic,weak)id<BottomDelegate> bottomdelegate;
+
 -(instancetype)initWithFrame:(CGRect)frame;
+
 -(void)setPriceLabelText:(NSString *)price Count:(NSString *)count;
+
 @end
+
+
+
+
+

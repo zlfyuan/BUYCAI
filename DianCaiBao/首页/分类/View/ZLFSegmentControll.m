@@ -44,6 +44,15 @@ typedef void(^clickBlock)(NSInteger index);
     {
         UIButton* but = [[UIButton alloc] initWithFrame:CGRectMake(self.contentSize.width / _titles.count * i, 0, self.contentSize.width / _titles.count, self.contentSize.height - 2)];
         but.tag = 100 + i;
+        if (i == 0) {
+            but.selected = YES;
+            [but setTitleColor:[UIColor orangeColor] forState:UIControlStateSelected];
+            
+        }else{
+            
+            
+        }
+
         [but setTitle:_titles[i] forState:UIControlStateNormal];
         [but setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [but setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
@@ -52,7 +61,14 @@ typedef void(^clickBlock)(NSInteger index);
         [self addSubview:but];
     }
     
- 
+    //初始化指示器
+    if (_titles.count > 5) {
+        _pointerView = [[UIView alloc] initWithFrame:CGRectMake(0, self.bounds.size.height - 2, self.bounds.size.width / 5, 2)];
+    }else{
+        _pointerView = [[UIView alloc] initWithFrame:CGRectMake(0, self.bounds.size.height - 2, self.bounds.size.width / _titles.count, 2)];
+    }
+    _pointerView.backgroundColor = [UIColor orangeColor];
+    [self addSubview:_pointerView];
 }
 
 -(void)butClick:(UIButton*)sender
@@ -65,11 +81,16 @@ typedef void(^clickBlock)(NSInteger index);
             button.selected = NO;
     }
     
+    [UIView animateWithDuration:self.duration animations:^{
+        _pointerView.center = (CGPoint){sender.center.x, _pointerView.center.y};
+    } completion:^(BOOL finished) {
+    }];
+
     self.clickBlock(sender.tag - 100, sender);
     
-    if ([self.YLdelegate respondsToSelector:@selector(buttonClick:)])
+    if ([self.Segdelegate respondsToSelector:@selector(buttonClick:)])
     {
-        [self.YLdelegate buttonClick:sender];
+        [self.Segdelegate buttonClick:sender];
     }
 }
 

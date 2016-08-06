@@ -44,6 +44,7 @@
         if (i == 0) {
             butn.selected = YES;
             [butn setTitleColor:[UIColor orangeColor] forState:UIControlStateSelected];
+          
 
         }else{
           
